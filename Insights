@@ -1,0 +1,38 @@
+---
+
+## 🧠 Domain Knowledge: Obesity & Health Analytics
+
+Obesity is a major global public health concern, linked to numerous chronic diseases such as diabetes, hypertension, and cardiovascular issues. In this project, we used data-driven classification techniques to better understand and predict obesity risk levels.
+
+Key domain knowledge incorporated:
+
+- **Obesity Categories:** Used a 7-level classification system (from underweight to severe obesity) based on behavioral and physical attributes, aligning with WHO and clinical BMI standards.
+- **Behavioral Health Indicators:** Variables like screen time, snacking, water intake, and physical activity are modern markers of obesity and reflect lifestyle transitions in developing countries.
+- **Family History:** Recognized as a strong hereditary risk factor, especially for early-onset obesity.
+
+This project bridges the gap between **statistical modeling** and **practical health decision-making**.
+
+---
+
+## 📌 Insights from the Project
+
+### ✅ CHAID Decision Tree Insights:
+- **Obesity_Type_I, III, and Insufficient Weight** were highly predictable, showing distinct behavior patterns.
+- **Normal and Overweight Levels I & II** had lower prediction accuracy due to overlapping lifestyle traits.
+- **Frequent snacking, low physical activity, and high BMI** emerged as top predictors in branching.
+
+### 📉 Regression Analysis Insights:
+- **Gender, BMI, Weight, Screen Time, and Family History** were statistically significant contributors to obesity (p < 0.05).
+- **Screen Time** is a modern lifestyle factor, strongly associated with higher obesity risk.
+- **BMI** validated as the strongest predictor — reaffirming its clinical relevance.
+- **No multicollinearity** observed (VIF < 2) — ensuring reliability of regression interpretation.
+
+---
+
+## 💡 Real-World Applications
+
+- Can aid **public health interventions**, awareness programs, or personalized fitness apps.
+- Visual CHAID tree is helpful for **non-technical stakeholders** like doctors or wellness coaches.
+- Framework can be scaled to **predict other health conditions** (e.g., diabetes, hypertension) with similar behavioral data.
+
+---
